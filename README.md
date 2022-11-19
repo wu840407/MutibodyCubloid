@@ -1,6 +1,23 @@
 # MultiBodyCuboid: Multi-body Segmentation and Motion Evaluation by Unsupervised Cuboid Shape Abstraction
+![image](https://github.com/wu840407/MutibodyCubloid/blob/main/assets/.png)
 ## Introduction
+
+![image](https://github.com/wu840407/MutibodyCubloid/blob/main/assets/0.png)
 MultiBodyCuboid is an multi-body motion segmentation architecture capable of handling an arbitrary number of disordered point sets.
+
+Dependencies
+We suggest to use Anaconda to manage your environment. Following is the suggested way to install the dependencies:
+
+    # Create a new conda environment
+    conda create -n mbs python=3.8
+    conda activate mbs
+
+    # Install pytorch
+    conda install pytorch==1.6.0 cudatoolkit=10.2 -c pytorch
+
+    # Install other packages
+    pip install -r requirements.txt
+For domestic users please consider using a mirror if there are connection problems.
 ## Dataset
 Each dataset is organized in the following structure:
 
@@ -35,5 +52,5 @@ After training, run the following to test your trained model:
 
     python test.py config/articulated-full.yaml
 ###Pre-trained models
-Please download the corresponding trained weights for articulated objects or solid objects and extract the weights to `./ckpt/articulated-full/best.pth.tar.`
-For solid objects, simply do `%s/articulated/solid/g.
+Please download the corresponding trained weights for [articulated objects](https://drive.google.com/file/d/1ECDzrgN0yznPHkM_etYgUUM_o8D6d2G1/view?usp=share_link) or [solid objects](https://drive.google.com/file/d/1xuEPrdyR_shCB0Icd7LYE7yowKLHOK3r/view?usp=share_link) and extract the weights to `./ckpt/articulated-full/best.pth.tar`.
+For solid objects, simply do `%s/articulated/solid/g`.
