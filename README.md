@@ -1,5 +1,5 @@
 # MultiBodyCuboid: Multi-body Segmentation and Motion Evaluation by Unsupervised Cuboid Shape Abstraction
-![image](https://github.com/wu840407/MutibodyCubloid/blob/main/assets/.png)
+![image](https://github.com/wu840407/MutibodyCubloid/blob/main/assets/1.png)
 ## Introduction
 
 ![image](https://github.com/wu840407/MutibodyCubloid/blob/main/assets/0.png)
