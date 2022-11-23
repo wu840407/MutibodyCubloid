@@ -3,7 +3,7 @@
 ## Introduction
 
 
-MultiBodyCuboid is an multi-body motion segmentation architecture capable of handling an arbitrary number of disordered point sets.
+MultiBodyCuboid is a multi-body motion segmentation architecture capable of handling an arbitrary number of disordered point sets.
 ![image](https://github.com/wu840407/MutibodyCubloid/blob/main/assets/0.png)
 ## Dependencies
 We suggest to use Anaconda to manage your environment. Following is the suggested way to install the dependencies:
