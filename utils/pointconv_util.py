@@ -1,7 +1,6 @@
 """
 PointConv util functions
-Author: Wenxuan Wu
-Date: May 2020
+Author: ChengRung Wu <wu840407@gmail.com>
 """
 
 import torch
