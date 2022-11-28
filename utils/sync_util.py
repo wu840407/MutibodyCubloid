@@ -1,6 +1,6 @@
 """
 This file belongs to the MultiBodySync code repository and is distributed for free.
-Author: Jiahui Huang <huang-jh18@mails.tsinghua.edu.cn>
+Author: ChengRung Wu <wu840407@gmail.com>
 """
 
 
